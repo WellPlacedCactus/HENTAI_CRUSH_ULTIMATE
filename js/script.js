@@ -9,13 +9,7 @@ const mouse = {
 const stats = {
 	waifus: 0
 };
-const pp = [{
-	x: 100,
-	y: 100,
-	vx: 1,
-	vy: 1,
-	a: 1
-}];
+const pp = [];
 
 const clicked = () => {
 	stats.waifus += 1;
