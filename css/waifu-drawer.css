@@ -1,0 +1,69 @@
+
+.waifu-drawer {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.waifu-drawer-toggle-button {
+  position: absolute;
+  top: 0;
+  left: 150px;
+  transition: 0.5s;
+}
+
+.waifu-drawer-toggle-button.off {
+  left: 0;
+}
+
+.waifu-drawer-toggle-button h1 {
+  cursor: pointer;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.waifu-drawer-toggle-button h1:hover {
+  color: pink;
+}
+
+.waifu-drawer-toggle-button h1:active {
+  color: palevioletred;
+}
+
+.waifus {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 150px;
+  height: 100vh;
+  overflow-y: auto;
+  transition: 0.5s;
+}
+
+.waifus.off {
+  left: -150px;
+}
+
+.waifus::-webkit-scrollbar {
+  display: none;
+}
+
+.waifu {
+  padding: 10px;
+  text-align: center;
+}
+
+.waifu img {
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.waifu img:hover {
+  width: 110px;
+}
+
+.waifu img:active {
+  width: 105px;
+}
